@@ -75,7 +75,7 @@ st.markdown(
 )
 <style>
 .main {
-    background: linear-gradient(180, #f7f8fc 0%, #f2effb 100%);
+    background: linear-gradient(180deg, #f7f8fc 0%, #f2effb 100%);
 }
 .block-container {
     padding-top: 0.8rem;
