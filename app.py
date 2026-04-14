@@ -69,7 +69,10 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-st.markdown("""
+st.markdown(
+    '<p class="footer-note">Pon el logo en assets/logo_futbeer.png y la portada en assets/portada_futbeer.png</p>',
+    unsafe_allow_html=True
+)
 <style>
 .main {
     background: linear-gradient(180deg, #f7f8fc 0%, #f2effb 100%);
